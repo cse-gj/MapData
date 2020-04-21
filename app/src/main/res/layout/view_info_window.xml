@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:ellipsize="end"
+        android:gravity="center_horizontal"
+        android:textColor="#232323"
+        android:textSize="12sp"
+        android:textStyle="bold" />
+    <!--
+약국 이름을 표시하는 곳
+    -->
+
+    <TextView
+        android:id="@+id/stock"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="2dp"
+        android:gravity="center_horizontal"
+        android:maxLines="3"
+        android:textColor="#5A5A5A"
+        android:textSize="10sp" />
+    <!--
+   재고 현황 표시하는 곳
+   -->
+
+    <TextView
+        android:id="@+id/time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="2dp"
+        android:gravity="center_horizontal"
+        android:maxLines="3"
+        android:textColor="#5A5A5A"
+        android:textSize="10sp" />
+
+    <!--
+입고 시간을 표시하는 곳
+   -->
+
+</LinearLayout>
