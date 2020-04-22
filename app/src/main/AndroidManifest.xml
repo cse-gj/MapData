@@ -16,7 +16,8 @@
         <service
             android:name=".PushActivity"
             android:enabled="true"
-            android:exported="true"></service>
+            android:exported="true"
+            android:stopWithTask="false"></service>
 
         <meta-data
             android:name="com.naver.maps.map.CLIENT_ID"

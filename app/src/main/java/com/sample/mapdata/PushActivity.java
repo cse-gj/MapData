@@ -23,7 +23,7 @@ public class PushActivity extends FirebaseMessagingService {
         Log.e(TAG, "onNewToken호출됨 :" +token);//로그에 새로운 토큰 값 출력
     }
 
-    public void onMessageReceived(RemoteMessage remoteMessage){
+    public void onMessageReceived(RemoteMessage remoteMessage){//메세지 수신시 일단 공백
 
     }
 
