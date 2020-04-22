@@ -10,7 +10,7 @@
       "client_info": {
         "mobilesdk_app_id": "1:341650464111:android:8f19308cedcfd702c09c9a",
         "android_client_info": {
-          "package_name": "org.techtown.push"
+          "package_name": "com.sample.mapdata"
         }
       },
       "oauth_client": [

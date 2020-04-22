@@ -8,6 +8,8 @@ import android.util.Log;
 import com.google.firebase.messaging.FirebaseMessagingService;
 import com.google.firebase.messaging.RemoteMessage;
 
+import java.util.Map;
+
 import retrofit2.http.Tag;
 
 public class PushActivity extends FirebaseMessagingService {
@@ -25,6 +27,9 @@ public class PushActivity extends FirebaseMessagingService {
 
     public void onMessageReceived(RemoteMessage remoteMessage){//메세지 수신시 일단 공백
 
+        String from = remoteMessage.getFrom();//발신자확인
+        Map<String, String> data = remoteMessage.getData();//메세지 안의 데이터 반환 map객체 안에 넣음
+        String contents = data.get("contents");//발신 데이터 확인
     }
 
 }
